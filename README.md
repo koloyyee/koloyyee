@@ -1,4 +1,18 @@
 ### Hi there 👋
+I am a Java ☕️ and TypeScript🟦 developer and I Like raw SQL!
+Always found it fun to process data, and building SaaS products is my goal.
+
+🌱 Currently learning Data Structures & Algorithm, Spring boot & Angular
+🔨 Building my secret full-stack Java and TypeScript web app
+⚡ Fun fact, I used to be a head chef and still love cooking 🥘!
+
+📫 email: koloyyee@gmail.com 
+📟 personal website: www.loyyee.co
+🔏 blog: write.loyyee.co
+
+
+
+
 
 <!--
 **koloyyee/koloyyee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
