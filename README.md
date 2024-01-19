@@ -7,6 +7,7 @@ Always found it fun to process data, and building SaaS products is my goal.
 - 🔨 Building my secret full-stack Java and TypeScript web app
 - ⚡ Fun fact, I used to be a head chef and still love cooking 🥘!
 
+### Contact Me
 - 📫 email: koloyyee@gmail.com 
 - 📟 personal website: www.loyyee.co
 - 🔏 blog: write.loyyee.co
