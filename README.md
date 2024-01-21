@@ -10,7 +10,7 @@ Always found it fun to process data, and building SaaS products is my goal.
 ### Contact Me
 - 📫 email: koloyyee@gmail.com 
 - 📟 personal website: www.loyyee.co
-- 🔏 blog: write.loyyee.co
+- 🔏 blog: [write.loyyee.co](write.loyyee.co)
 
 
 
