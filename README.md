@@ -1,6 +1,6 @@
 ### Hi there 👋
 I am a Java ☕️ and TypeScript🟦 developer and I Like raw SQL!
-Always found it fun to process data, and building SaaS products is my goal.
+Always found it fun to process data, building SaaS products, and becoming a Data engineer is my goal.
 
 ### Who Am I?
 - 🌱 Currently learning Spring boot React Data & Structures & Algorithm
