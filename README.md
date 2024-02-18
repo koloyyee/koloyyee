@@ -3,7 +3,7 @@ I am a Java ☕️ and TypeScript🟦 developer and I Like raw SQL!
 Always found it fun to process data, and building SaaS products is my goal.
 
 ### Who Am I?
-- 🌱 Currently learning Data Structures & Algorithm, Spring boot & Angular
+- 🌱 Currently learning Spring boot React Data & Structures & Algorithm
 - 🔨 Building my secret full-stack Java and TypeScript web app
 - ⚡ Fun fact, I used to be a head chef and still love cooking 🥘!
 
