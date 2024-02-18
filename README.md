@@ -18,7 +18,7 @@ Always found it fun to process data, building SaaS products, and becoming a Data
   <summary> <h2>Work Experience</h2></summary>
     <h3 class="work_place_title"><span>Freelance Developer @ GreyTee Software</span><span>  Ottawa, Canada</span></h3>
     <p>📅 10/2023 - Present </p>
-    <a href="synced-timer.loyyee.co" target="_blank"> Sample Project (no login required) </a> 
+    <a href="https://synced-timer.loyyee.co" target="_blank"> Sample Project (no login required) </a> 
     <p>Job Description:</p>
     <ul>
       <li> </span> Design, build, and deployed a <strong>distributed synchronized timer</strong>
