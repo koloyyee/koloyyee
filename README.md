@@ -1,5 +1,6 @@
 ### Hi there 👋
 I am a Java ☕️ and TypeScript🟦 developer and I Like raw SQL!
+I am Passionate about Data, Backend, Performance!
 Always found it fun to process data, building SaaS products, and becoming a Data engineer is my goal.
 
 ### Who Am I?
@@ -9,7 +10,7 @@ Always found it fun to process data, building SaaS products, and becoming a Data
 
 ### Contact Me
 - 📫 email: koloyyee@gmail.com 
-- 📟 personal website: www.loyyee.co
+- 📟 personal website: [www.loyyee.co](www.loyyee.co)
 - 🔏 blog: [write.loyyee.co](write.loyyee.co)
 
 
