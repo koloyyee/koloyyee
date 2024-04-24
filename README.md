@@ -10,8 +10,8 @@ Always found it fun to process data, building SaaS products, and becoming a Data
 
 ### Contact Me
 - 📫 email: koloyyee@gmail.com 
-- 📟 personal website: [www.loyyee.co](www.loyyee.co)
-- 🔏 blog: [write.loyyee.co](write.loyyee.co)
+- 📟 personal website: [www.loyyee.co](https://www.loyyee.co)
+- 🔏 blog: [write.loyyee.co](https://write.loyyee.co)
 
 
 <details>
