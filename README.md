@@ -14,7 +14,6 @@ Always found it fun to process data, building SaaS products, and becoming a Data
 - 🔏 blog: [write.loyyee.co](https://write.loyyee.co)
 
 ### Projects
-Currently working on:
 #### Cover Letter Drafter | React, Spring Boot, Java, TypeScript, SpringAI
 - Project Link: [LLM Cover Letter Drafter](https://drafter.loyyee.co)
   - Frontend Repo: [Drafter](https://github.com/koloyyee/cover_letter_drafter)
