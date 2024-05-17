@@ -13,6 +13,16 @@ Always found it fun to process data, building SaaS products, and becoming a Data
 - 📟 personal website: [www.loyyee.co](https://www.loyyee.co)
 - 🔏 blog: [write.loyyee.co](https://write.loyyee.co)
 
+### Projects
+Currently working on:
+#### Cover Letter Drafter | React, Spring Boot, Java, TypeScript, SpringAI
+- Project Link: [LLM Cover Letter Drafter](https://drafter.loyyee.co)
+  - Frontend Repo: [Drafter](https://github.com/koloyyee/cover_letter_drafter)
+  - Backend Repo: [Omi](https://github.com/koloyyee/omi)
+#### Java Stream API practice: Streaming Largest Companies | Java, OpenCSV, Kaggle
+  - Reop: [Omi](https://github.com/koloyyee/streaming_largest_companies)
+#### Python Scheduled & Automated News Scraper: Daily Updates | Python, Flask, RabbitMQ, Celery
+- Repo: [DailyUpdates](https://github.com/koloyyee/DailyUpdates)
 
 <details>
   <summary> <h2>Work Experience</h2></summary>
