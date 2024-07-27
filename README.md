@@ -23,6 +23,8 @@ Always found it fun to process data, and build SaaS products.
 #### Python Scheduled & Automated News Scraper: Daily Updates | Python, Flask, RabbitMQ, Celery
 - Repo: [DailyUpdates](https://github.com/koloyyee/DailyUpdates)
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=koloyyee)](https://git.io/streak-stats)
+
 <details>
   <summary> <h2>Work Experience</h2></summary>
     <h3 class="work_place_title"><span>Freelance Developer @ GreyTee Software</span><span>  Ottawa, Canada</span></h3>
