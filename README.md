@@ -1,5 +1,5 @@
 ### Hi there 👋
-I am a Java ☕️, Spring Boot 🍃 and TypeScriptʦ, React⚛️ developer and I Like raw SQL!
+I am a Java ☕️, Spring Boot 🍃 and TypeScript ʦ, React⚛️ developer and I Like raw SQL!
 Passionate about Data and tech in Hospitality.
 Always found it fun to process data, and build SaaS products.
 
