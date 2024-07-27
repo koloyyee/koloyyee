@@ -1,7 +1,7 @@
 ### Hi there 👋
-I am a Java ☕️ and TypeScript🟦 developer and I Like raw SQL!
-I am Passionate about Data, Backend, Performance!
-Always found it fun to process data, building SaaS products, and becoming a Data engineer is my goal.
+I am a Java ☕️, Spring Boot 🍃 and TypeScriptʦ, React⚛️ developer and I Like raw SQL!
+Passionate about Data and tech in Hospitality.
+Always found it fun to process data, and build SaaS products.
 
 ### Who Am I?
 - 🌱 Currently learning Spring boot React Data & Structures & Algorithm
