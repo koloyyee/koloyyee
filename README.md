@@ -22,8 +22,9 @@ Always found it fun to process data, and build SaaS products.
   - Reop: [Largest Companies ](https://github.com/koloyyee/streaming_largest_companies)
 #### Python Scheduled & Automated News Scraper: Daily Updates | Python, Flask, RabbitMQ, Celery
 - Repo: [DailyUpdates](https://github.com/koloyyee/DailyUpdates)
-
+<!--
 [![GitHub Streak](https://streak-stats.demolab.com/?user=koloyyee)](https://git.io/streak-stats)
+-->
 
 <details>
   <summary> <h2>Work Experience</h2></summary>
