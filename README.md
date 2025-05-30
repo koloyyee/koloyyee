@@ -15,7 +15,8 @@ Always found it fun to process data, and build SaaS products.
 
 ### Projects
 #### Cover Letter Drafter | React, Spring Boot, Java, TypeScript, SpringAI
-- Project Link: [LLM Cover Letter Drafter](https://drafter.loyyee.co)
+<!-- - Project Link: [LLM Cover Letter Drafter](https://drafter.loyyee.co) -->
+- Project: LLM Cover Letter Drafter
   - Frontend Repo: [Drafter](https://github.com/koloyyee/cover_letter_drafter)
   - Backend Repo: [Omi](https://github.com/koloyyee/omi)
 #### Java Stream API practice: Streaming Largest Companies | Java, OpenCSV, Kaggle
