@@ -4,7 +4,7 @@ Passionate about Data and tech in Hospitality.
 Always found it fun to process data, and build SaaS products.
 
 ### Who Am I?
-- 🌱 Currently learning Spring boot React Data & Structures & Algorithm
+- 🌱 Currently learning Spring Boot, Angular, Data & Structures & Algorithm
 - 🔨 Building my secret full-stack Java and TypeScript web app
 - ⚡ Fun fact, I used to be a head chef and still love cooking 🥘!
 
