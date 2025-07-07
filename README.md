@@ -1,3 +1,8 @@
+My name is David. 
+
+I work in Java, TypeScript, Swift, and Clojure.
+
+<!-- 
 ### Hi there 👋
 I am a Java ☕️, Spring Boot 🍃 and TypeScript ʦ, React⚛️ developer and I Like raw SQL!
 Passionate about Data and tech in Hospitality.
@@ -12,10 +17,13 @@ Always found it fun to process data, and build SaaS products.
 - 📫 email: koloyyee@gmail.com 
 - 📟 personal website: [www.loyyee.co](https://www.loyyee.co)
 - 🔏 blog: [write.loyyee.co](https://write.loyyee.co)
+-->
 
+<!--
 ### Projects
 #### Cover Letter Drafter | React, Spring Boot, Java, TypeScript, SpringAI
-<!-- - Project Link: [LLM Cover Letter Drafter](https://drafter.loyyee.co) -->
+
+ - Project Link: [LLM Cover Letter Drafter](https://drafter.loyyee.co)
 - Project: LLM Cover Letter Drafter
   - Frontend Repo: [Drafter](https://github.com/koloyyee/cover_letter_drafter)
   - Backend Repo: [Omi](https://github.com/koloyyee/omi)
@@ -23,9 +31,11 @@ Always found it fun to process data, and build SaaS products.
   - Reop: [Largest Companies ](https://github.com/koloyyee/streaming_largest_companies)
 #### Python Scheduled & Automated News Scraper: Daily Updates | Python, Flask, RabbitMQ, Celery
 - Repo: [DailyUpdates](https://github.com/koloyyee/DailyUpdates)
+
+ -->
 <!--
 [![GitHub Streak](https://streak-stats.demolab.com/?user=koloyyee)](https://git.io/streak-stats)
--->
+
 
 <details>
   <summary> <h2>Work Experience</h2></summary>
@@ -55,7 +65,7 @@ Always found it fun to process data, and build SaaS products.
       <li>Used Svelte, MongoDB, and deployed on AWS Lambda</li>
     </ul>
 </details>
-
+-->
 
 
 <!--
