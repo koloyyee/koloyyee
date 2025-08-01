@@ -1,7 +1,8 @@
 My name is David. 
 
-I work in Java, TypeScript, Swift, and Clojure.
+I build with Java, TypeScript, Swift, and Clojure.
 
+Let's create a better future.
 <!-- 
 ### Hi there 👋
 I am a Java ☕️, Spring Boot 🍃 and TypeScript ʦ, React⚛️ developer and I Like raw SQL!
