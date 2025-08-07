@@ -1,24 +1,25 @@
-My name is David. 
+<!-- My name is David. 
 
 I build with Java, TypeScript, Swift, and Clojure.
 
-Let's create a better future.
-<!-- 
-### Hi there 👋
-I am a Java ☕️, Spring Boot 🍃 and TypeScript ʦ, React⚛️ developer and I Like raw SQL!
-Passionate about Data and tech in Hospitality.
-Always found it fun to process data, and build SaaS products.
+Let's create a better future. --> 
 
-### Who Am I?
-- 🌱 Currently learning Spring Boot, Angular, Data & Structures & Algorithm
-- 🔨 Building my secret full-stack Java and TypeScript web app
-- ⚡ Fun fact, I used to be a head chef and still love cooking 🥘!
+### Hi there 👋 My name is David, a Full Stack Developer
+#### I use
+- langs: Java, Typescript, Swift, Python, Clojure, (PG)SQL
+- stacks: Spring Boot, React, Angular, SwiftUI, NodeJS
+- db: PostgreSQL, SQLite, MySQL, MongoDB
+
+
+### Currently
+- Swift Mentorship Program 2025 Mentee contributing to `swiftlang/swift-java` package
 
 ### Contact Me
 - 📫 email: koloyyee@gmail.com 
 - 📟 personal website: [www.loyyee.co](https://www.loyyee.co)
 - 🔏 blog: [write.loyyee.co](https://write.loyyee.co)
--->
+- 🔗 linkedIn: [www.linkedin.com/in/ko-loy-yee](https://www.linkedin.com/in/ko-loy-yee)
+
 
 <!--
 ### Projects
