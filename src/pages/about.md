@@ -3,35 +3,23 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
 
-![Astro Paper](public/astropaper-og.jpg)
+<!--![Astro Paper](public/astropaper-og.jpg)-->
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+My name is Ko Loy Yee, or David. I spent over 10 years in the kitchen, rising from cook to head chef, but now it is time to move on. Today, I am a programmer. Rather than creating dishes to entertain guests, I now build software to enrich my users' lives.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+I am a shameless Apple fanboy and a devotee of the ecosystem. You’ll find most of my posts are about Apple, Swift, and mobile app development.
 
-## Features
+Apart from Swift, I am a huge fan of Clojure—not just for the functional programming, but for the ethos, design, and community created by Rich Hickey.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+I look forward to sharing my software with everyone—creating artifacts that make users' lives easier, happier, more productive, and smarter.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
 
-and so much more.
+## Experience
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+- Clojure/Python Intern @ AnoxAI (Norway): Oct2025 - Present
+- TS/Python Fullstack Co-op @ DeepCode (Canada): Jan2025 - Apr2025
+- Software Quality Assurance Intern @ CaseIQ (Canada) Sep2024 - Dec2024
+- TS Junior Frontend Developer @ Snaildy (Hong Kong): Jan2023 - Aug2023
+- Head of Culinary @ Just Kitchen(Hong Kong): Mar2022 - Dec2022
+- R&D Chef @ foodpanda, Delivery Hero (Hong Kong): Jul2020 - Feb2022 
