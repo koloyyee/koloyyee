@@ -1,9 +1,11 @@
 export const SITE = {
-  website: "https://www.loyyee.co/", 
+  //website: "https://koloyyee.github.io",
+  //base: "/koloyyee",
+  website: "https://www.loyyee.co",
   author: "David Ko",
   profile: "https://www.loyyee.co/",
   desc: "Blog & Portfolio",
-  title: "REPL Journey",
+  title: "REPL Playground",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
