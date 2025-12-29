@@ -4,11 +4,11 @@ author: Loy Yee Ko
 pubDatetime: 2025-12-24T17:33:40.121Z
 slug: its-a-wrap
 featured: false
-draft: true
+draft: false
 tags:
   - Clojure
   - Swift
-  - recap
+  - Recap
 description:
   It's a wrap, 2025 is over! But what have I done? 
 ---
@@ -31,7 +31,7 @@ In this role, I developed an SEO-friendly marketing page and a business web appl
 
 Given the business nature of the application, I now realize Angular would have been a better fit—it is SaaS-friendly, secure, structured, and reduces "choice fatigue." This experience taught me that "popular" doesn't always mean "better." At least I avoided Next.js; just a few weeks after my co-op, several CVEs (Common Vulnerabilities and Exposures) were discovered in it.
 
-After my internships, I was retained by the startup. I learned a great deal about what a SaaS company needs beyond its main product, such as knowledge-base websites and automation. I also discovered a world beyond TypeScript, despite having used it for years.
+After my internships, I was not retained by the startup. But I learned a great deal about what a SaaS company needs beyond its main product, such as knowledge-base websites and automation. I also discovered a world beyond TypeScript, despite having used it for years.
 
 ## Clojure
 Clojure entered my life because of Java. During my time at Algonquin College, most of my courses were Java-based. While I think Java has improved significantly, I found certain aspects dissatisfying: the "shackles" of heavy typing, the endless getters and setters, and a Stream API that felt difficult to use. These frustrations, combined with the YouTube algorithm, led me to Rich Hickey’s talks: [Simple, made easy](https://youtu.be/SxdOUGdseq4?si=MKJSnCWwZ_Zc9mJY) and [Just use map](https://youtu.be/aSEQfqNYNAc?si=GHwKQ2Heg5xPkGQ5). They truly struck a chord with me..
