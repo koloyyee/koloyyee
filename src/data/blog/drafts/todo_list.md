@@ -30,13 +30,21 @@ A clear and concise description prevents ambiguity. During various projects, I p
 
 Slaying a task is a problem-solving process. The 3 most important parts are first, the input data structure, which is our problem; second, the output data structure, which is our goal; third, where we divide and conquer the problem, aka the algorithm.
 
-As long as we have the first and second parts, our role as developers will be focusing on the third part. That's why a lengthy description like an assignment doesn't work.
+As long as we have the first and second parts, our role as developers will be focusing on the third part.
 
 ## Ultra Organised doesn't help
-While preparing a list digitally, I often see the options of creating subtasks and task dependencies. At the time of making the list, it gave an illusion of "well-organised" and a week later, you might find it confusing and take some time to figure out what the original intentions were. Therefore, I have stopped myself from creating a list containing subtasks.
+While preparing a list digitally, I often see the options of creating subtasks and task dependencies. At the time of making the list, it gave an illusion of "well-organised". 
+
+Weeks later, you might find it confusing and take some time to figure out what the original intentions were. That's why I have stopped myself from creating a list containing subtasks and keep the list flat.
 
 ## Secret weapon
-A mise en place is certainly helping me to stay focused, but another big challenge is to keep myself away from distractions during the hours. During my last few years working in a kitchen, I found that to maximise my productivity, I paired my mise en place list with time blocking to create a session that I was hyper-focused on. During a session, I will keep my headphones on, keep my head down and finish all the preps within the dedicated time before jumping on another task and never multitasking. I was in a "tunnel-focused" mode.
+A mise en place is certainly helping me to stay focused, but another big challenge is to keep myself away from distractions during the hours. 
+
+During my last few years working in a kitchen, I found that to maximise my productivity, I paired my mise en place list with time blocking to create a session that I was hyper-focused on. 
+
+In this session, I will keep my headphones on, keep my head down and finish all the preps within the dedicated time before jumping on another task and never multitasking. I was in a "tunnel-focused" mode.
+
+With tunnel focused, I outperformed everyone and even have time to work on my paperwork. But right now, I feel like I am missing something.
 
 ## Create my wheels
 The secret weapon of tunnel focus was something that I had been missing, and I aimed to bring it back to my life as a tool to keep me disciplined. 
