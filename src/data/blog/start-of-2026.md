@@ -53,4 +53,3 @@ Here are the milestones in this journey.
 3. Publish weekly blog posts on Clojure, Swift, and the entrepreneur journey.
 
 These might not sound big and grand, but rather small and achievable yet challenging. For far too long, I have wanted to achieve something big in life, but then I feel overwhelmed and give up soon after. It is time to start from the bottom up, start something small. If you are still reading, I would like to thank you and welcome you to be part of my journey into entrepreneurship.
-
