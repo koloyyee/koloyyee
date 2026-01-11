@@ -26,7 +26,7 @@ The importance of mise en place is based on a sense of urgency; tasks are able t
 
 By creating a list for that day, I can focus on the tasks that are urgent today, so that they won't be a blocker for tomorrow's work. With that said, to keep the list realistic, it is usually short with **clearly and concisely described tasks**. That way, we can reduce our cognitive load, instead of figuring out what to do, and spend our energy on how to do it.
 
-A clear and concise description prevents ambiguity. During various projects, I performed better when the task descriptions were clear and concise; if not, I would just reach out rather than drowning in a lengthy description.
+A clear and concise description prevents ambiguity. During various projects, I performed better when the task descriptions were clear and concise; I rather reach out and ask instead of drowning in lengthy descriptions.
 
 Slaying a task is a problem-solving process. The 3 most important parts are first, the input data structure, which is our problem; second, the output data structure, which is our goal; third, where we divide and conquer the problem, aka the algorithm.
 
