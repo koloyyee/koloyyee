@@ -1,7 +1,7 @@
 ---
 title: Multitasking is a lie and why you need Time Blocking.
 author: David Ko
-pubDatetime: 
+pubDatetime: 2026-01-20T17:00:38.916Z
 slug: what-is-time-blocking
 featured: false
 draft: false
