@@ -7,10 +7,9 @@ featured: false
 draft: false
 tags:
   - Productivity
-  - Entrepreneurship 
+  - Entrepreneurship
   - AI
-description:
-  Filled by not full.
+description: Filled by not full.
 ---
 
 ## Table of Contents
@@ -21,7 +20,7 @@ Have you ever felt stuffed but not satisfied after a meal made of processed food
 
 ## Processed Food
 
-We associate food that was preprocessed, and often off-the-shelf items. They are created for convenience, low cost, and a long shelf life; everything feels good, but not at the expense of your well-being. It is a quick way to create a meal in a matter of minutes. 
+We associate food that was preprocessed, and often off-the-shelf items. They are created for convenience, low cost, and a long shelf life; everything feels good, but not at the expense of your well-being. It is a quick way to create a meal in a matter of minutes.
 
 It is so convenient that a generation almost lost the ability to cook food from scratch. Even worse, we don't exactly know what goes on in there, and many people don't care. They are energy-dense but lack essential nutrients; yet, they are cheaper to acquire and faster to consume. Without careful consumption, they can be harmful.
 
@@ -37,7 +36,8 @@ Turns out `skills` sits inside `.agents/` directory with an array of skills, whi
 
 I understand why `SKILL.md` and `AGENTS.md` have become popular. The developer has a mini development team within `./agents`, and it is convenient and arguably efficient.
 
-Take `expo/skills` as an example; it provides detailed guidance on the best practices. 
+Take `expo/skills` as an example; it provides detailed guidance on the best practices.
+
 ```sh
 .agents
 └── skills
@@ -60,9 +60,11 @@ Take `expo/skills` as an example; it provides detailed guidance on the best prac
     │       └── zoom-transitions.md
     ...
 ```
-```md
+
+````md
 ...
 Create a shared group route so both tabs can push common screens:
+
 ```tsx
 // app/(index,search)/_layout.tsx
 import { Stack } from "expo-router/stack";
@@ -91,9 +93,11 @@ export default function Layout({ segment }) {
   );
 }
 ```
+````
+
 By using `README.md` as a project design guideline, it is very helpful for both agents and me in checking where the project is heading; the agent usually won't deviate(too much). Pairing with TDDs, you will have a pretty solid prototype in no time, in my case, less than 30 minutes.
 
-## Good for experienced devs but harmful to juniors.
+## Good for experienced devs but harmful to juniors
 
 I'll be honest, for the speed to market, the agent is rather good and fast. Like processed food, it is not without long-term consequences. 1. You need to allocate most of the time to reviewing the code. 2. A project design became crucial; if the project hasn't been well thought through, you would be wasting tokens on reiterating. 3. Your programming skills and critical thinking might take a toll.
 
