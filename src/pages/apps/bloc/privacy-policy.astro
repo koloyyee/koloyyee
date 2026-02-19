@@ -1,0 +1,195 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import { SITE } from "@/config";
+
+const pageTitle = `Focus Block Privacy Policy | ${SITE.title}`;
+const pageDescription =
+  "Privacy Policy for Focus Block, including data collection, permissions, storage, user rights, and contact details.";
+const canonicalURL = new URL("/apps/bloc/privacy-policy", SITE.website).toString();
+const lastUpdated = "February 19, 2026";
+
+const privacySchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Focus Block Privacy Policy",
+  description: pageDescription,
+  url: canonicalURL,
+};
+---
+
+<Layout title={pageTitle} description={pageDescription} canonicalURL={canonicalURL}>
+  <Header />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(privacySchema)} />
+
+  <main id="main-content" class="mx-auto w-full max-w-3xl px-4 pb-16">
+    <section class="mt-8 rounded-3xl border border-border bg-muted/20 p-6 sm:p-8">
+      <p class="meta">Focus Block</p>
+      <h1 class="title mt-2">Privacy Policy</h1>
+      <p class="mt-3 text-sm text-foreground/80">Last updated: {lastUpdated}</p>
+      <p class="mt-4 leading-7 text-foreground/90">
+        This Privacy Policy explains how Focus Block ("we", "our", or "us") handles your
+        information when you use the Focus Block app.
+      </p>
+    </section>
+
+    <section class="policy mt-8 space-y-8">
+      <article>
+        <h2>1. Information We Collect</h2>
+        <p>
+          Focus Block is designed to minimize data collection. App data such as your blocks,
+          categories, tags, and settings is primarily used to provide core app functionality.
+        </p>
+      </article>
+
+      <article>
+        <h2>2. Permissions We Request</h2>
+        <p>Depending on features you enable, Focus Block may request access to:</p>
+        <ul>
+          <li>
+            <strong>Screen Time / Family Controls:</strong> to apply app/category blocking during
+            scheduled focus sessions.
+          </li>
+          <li>
+            <strong>Notifications:</strong> to remind you when blocks start, end, or require your
+            attention.
+          </li>
+          <li>
+            <strong>Calendar or Reminders (if enabled):</strong> to support synchronization features
+            you choose to use.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>3. How We Use Information</h2>
+        <p>We use information only to operate and improve Focus Block, including to:</p>
+        <ul>
+          <li>Create and manage focus blocks and schedules.</li>
+          <li>Enable distraction blocking and focus sessions.</li>
+          <li>Show progress and insights inside the app.</li>
+          <li>Respond to support requests and feedback.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>4. Data Sharing</h2>
+        <p>
+          We do not sell your personal information. We may share limited information only when
+          required by law or to protect legal rights and safety.
+        </p>
+      </article>
+
+      <article>
+        <h2>5. Data Storage and Retention</h2>
+        <p>
+          Data is retained only as long as needed to provide app functionality or comply with legal
+          obligations. You can remove app data by deleting content in-app or uninstalling the app,
+          subject to platform behavior and any enabled sync services.
+        </p>
+      </article>
+
+      <article>
+        <h2>6. Your Choices and Rights</h2>
+        <p>You can:</p>
+        <ul>
+          <li>Revoke permissions at any time in your device settings.</li>
+          <li>Edit or delete your blocks and related app content.</li>
+          <li>Contact us to request support regarding your data.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>7. Children&apos;s Privacy</h2>
+        <p>
+          Focus Block is not directed to children under 13, and we do not knowingly collect
+          personal information from children under 13.
+        </p>
+      </article>
+
+      <article>
+        <h2>8. Security</h2>
+        <p>
+          We use reasonable safeguards to protect data. No method of storage or transmission is
+          completely secure, so we cannot guarantee absolute security.
+        </p>
+      </article>
+
+      <article>
+        <h2>9. Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. If changes are made, we will update
+          the "Last updated" date above.
+        </p>
+      </article>
+
+      <article>
+        <h2>10. Contact</h2>
+        <p>
+          For privacy questions, contact:
+          <a href="mailto:tunnelfocus.app@gmail.com">tunnelfocus.app@gmail.com</a>
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .meta {
+    margin: 0;
+    width: fit-content;
+    border-radius: 999px;
+    background: #ffd15a;
+    color: #172f60;
+    padding: 0.2rem 0.65rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .title {
+    margin: 0;
+    color: var(--color-foreground);
+    font-size: clamp(2rem, 4.6vw, 3rem);
+    line-height: 1.05;
+    font-weight: 800;
+  }
+
+  .policy h2 {
+    margin: 0;
+    color: var(--color-foreground);
+    font-size: 1.18rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  .policy p {
+    margin: 0.6rem 0 0;
+    color: color-mix(in oklab, var(--color-foreground) 90%, transparent);
+    line-height: 1.6;
+  }
+
+  .policy ul {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+    color: color-mix(in oklab, var(--color-foreground) 90%, transparent);
+    line-height: 1.6;
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .policy a {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  :global(html[data-theme="dark"]) .meta {
+    background: #f0be45;
+    color: #1f2f52;
+  }
+</style>
