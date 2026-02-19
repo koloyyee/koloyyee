@@ -11,6 +11,17 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 
+// Temporary type bridge for mixed Shiki transformer versions in the lockfile.
+// Runtime behavior is unchanged; this only avoids TS incompatibility between 3.7 and 3.22 types.
+const shikiTransformers = [
+  transformerFileName({ style: "v2", hideDot: false }),
+  transformerNotationHighlight(),
+  transformerNotationWordHighlight(),
+  transformerNotationDiff({ matchAlgorithm: "v3" }),
+] as unknown as NonNullable<
+  NonNullable<Parameters<typeof defineConfig>[0]["markdown"]>["shikiConfig"]
+>["transformers"];
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -26,12 +37,7 @@ export default defineConfig({
       themes: { light: "min-light", dark: "night-owl" },
       defaultColor: false,
       wrap: false,
-      transformers: [
-        transformerFileName({ style: "v2", hideDot: false }),
-        transformerNotationHighlight(),
-        transformerNotationWordHighlight(),
-        transformerNotationDiff({ matchAlgorithm: "v3" }),
-      ],
+      transformers: shikiTransformers,
     },
   },
   vite: {
