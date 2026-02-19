@@ -1,0 +1,408 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import { SITE } from "@/config";
+
+const pageTitle = `Focus Block | ${SITE.title}`;
+const pageDescription =
+  "Focus Block helps you schedule blocks, shield distracting apps, and review progress with clear insights.";
+const canonicalURL = new URL("/apps/bloc", SITE.website).toString();
+const appSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "Focus Block",
+  applicationCategory: "ProductivityApplication",
+  operatingSystem: "iOS, macOS",
+  description: pageDescription,
+  url: canonicalURL,
+  image: `${SITE.website}/assets/apps/bloc/logo.svg`,
+  publisher: {
+    "@type": "Person",
+    name: SITE.author,
+    url: SITE.profile,
+  },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is Focus Block?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Focus Block is a productivity app that combines time blocking and app blocking to help you protect deep work sessions.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does app blocking work?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You choose distracting apps and categories. During your scheduled focus blocks, those apps are blocked so your plan stays front and center.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What can I track in Insights?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You can review completed blocks, total focus time, and trend patterns to refine your weekly routine.",
+      },
+    },
+  ],
+};
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  canonicalURL={canonicalURL}
+  ogImage="/assets/apps/bloc/logo.svg"
+>
+  <Header />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(appSchema)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />
+
+  <main id="main-content" class="focus-wrap pb-16">
+    <section class="hero mt-8 rounded-4xl px-6 py-12 sm:px-10 sm:py-16">
+      <img
+        src="/assets/apps/bloc/logo.svg"
+        alt="Focus Block app logo"
+        class="app-logo"
+        loading="eager"
+      />
+      <p class="label">Focus Block</p>
+      <h1 class="mt-4">Your day deserves protected focus time.</h1>
+      <p class="mt-5 max-w-2xl">
+        Focus Block combines time blocking and app blocking so your plans become real sessions
+        instead of unfinished intentions.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <span>App + time blocking</span>
+        <!--<span>iOS & macOS first</span>-->
+        <span>Insights-driven focus</span>
+      </div>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a class="btn" href="mailto:hello@loyyee.co">Get Early Access</a>
+        <a class="btn btn-light" href="#showcase">Explore Features</a>
+      </div>
+    </section>
+
+    <section id="showcase" class="mt-14 narrative">
+      <article class="story">
+        <h2>The idea</h2>
+        <p>
+          Most productivity systems fail in the gap between planning and execution. Focus Block is
+          built to close that gap.
+        </p>
+        <p>
+          You schedule your work as blocks on a clean timeline, then Focus Block automatically
+          shields distracting apps when those blocks begin. The result is simple: fewer decisions
+          during the day, and more meaningful work completed.
+        </p>
+      </article>
+
+      <article class="story">
+        <h2>How it works</h2>
+        <p>
+          Start by organizing your day into clear blocks. Add titles, choose durations, set repeat
+          days, and keep your schedule realistic.
+        </p>
+        <p>
+          Choose which apps or categories to block during focus sessions. When it is time to work,
+          the distractions step aside and your plan stays in front.
+        </p>
+      </article>
+
+      <article class="story">
+        <h2>Core functions</h2>
+        <ul>
+          <li>Time-block planning with start, end, repeat, categories, and tags.</li>
+          <li>App and category blocking to protect focus windows.</li>
+          <li>Insights view to track completed blocks, time totals, and momentum trends.</li>
+          <li>Weekly structure that helps you prioritize deep work over reactive work.</li>
+        </ul>
+      </article>
+
+      <article class="story">
+        <h2>Why Focus Block</h2>
+        <p>
+          Focus Block is not a task dump or a timer gimmick. It is a lightweight operating system
+          for your attention: plan clearly, block intentionally, review honestly, and improve each
+          week.
+        </p>
+      </article>
+    </section>
+
+    <section class="mt-14 grid gap-5 md:grid-cols-3">
+      <article class="fact">
+        <h3>Built for Real Routines</h3>
+        <p>Turn ideas into scheduled blocks and keep your day realistic.</p>
+      </article>
+      <article class="fact">
+        <h3>Focus During Block Time</h3>
+        <p>Use app blocking to remove common distractions while you work.</p>
+      </article>
+      <article class="fact">
+        <h3>Improve with Insights</h3>
+        <p>Review trends, categories, and progress to plan better each week.</p>
+      </article>
+    </section>
+
+    <section class="mt-14 faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <article class="faq-item">
+          <h3>What is Focus Block?</h3>
+          <p>
+            Focus Block is a productivity app that combines time blocking and app blocking to help
+            you protect deep work sessions.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>How does app blocking work?</h3>
+          <p>
+            You choose distracting apps and categories. During your scheduled focus blocks, those
+            apps are blocked so your plan stays front and center.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>What can I track in Insights?</h3>
+          <p>
+            You can review completed blocks, total focus time, and trend patterns to refine your
+            weekly routine.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta mt-14 rounded-4xl px-6 py-12 text-center sm:px-10">
+      <h2>Start organizing your day in blocks</h2>
+      <p class="mx-auto mt-4 max-w-xl">
+        Focus Block is designed to help you do less reactive work and more intentional work.
+      </p>
+      <a class="btn mt-7 inline-flex" href="mailto:hello@loyyee.co">Join TestFlight Waitlist</a>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .focus-wrap {
+    font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
+  }
+
+  .hero,
+  .cta {
+    border: 1px solid #d5dded;
+    background: radial-gradient(circle at 0% 0%, #ffe3a1 0%, #f8fbff 45%, #ecf2ff 100%);
+  }
+
+  .app-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .hero h1,
+  .cta h2 {
+    margin: 0;
+    color: var(--color-foreground);
+    font-weight: 800;
+    line-height: 1.05;
+    font-size: clamp(2.1rem, 5vw, 4rem);
+  }
+
+  .hero p,
+  .cta p {
+    color: #325076;
+    font-size: clamp(1rem, 1.8vw, 1.2rem);
+    line-height: 1.55;
+  }
+
+  .label {
+    width: fit-content;
+    margin: 0;
+    border-radius: 999px;
+    padding: 0.25rem 0.7rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #172f60;
+    background: #ffd15a;
+    font-weight: 700;
+  }
+
+  .hero span {
+    border: 1px solid #bfcee7;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #284571;
+    padding: 0.32rem 0.76rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .btn {
+    border-radius: 999px;
+    border: 1px solid #1f4388;
+    background: #244d99;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.72rem 1.12rem;
+  }
+
+  .btn:hover {
+    background: #193a75;
+    color: #fff;
+  }
+
+  .btn-light {
+    background: transparent;
+    color: #244d99;
+  }
+
+  .narrative {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .story {
+    border-radius: 1.3rem;
+    padding: 1.25rem;
+    border: 1px solid #cfdaec;
+    background: linear-gradient(145deg, #ffffff, #f2f7ff);
+  }
+
+  .story h2 {
+    margin: 0;
+    line-height: 1.08;
+    color: var(--color-foreground);
+    font-weight: 600;
+    font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  }
+
+  .story p {
+    margin: 0.75rem 0 0;
+    color: #355274;
+    line-height: 1.5;
+  }
+
+  .story ul {
+    margin: 0.9rem 0 0;
+    padding-left: 1rem;
+    display: grid;
+    gap: 0.45rem;
+    color: #355274;
+    line-height: 1.45;
+  }
+
+  .fact {
+    border: 1px solid #cbd8ee;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #fefefe, #f2f7ff);
+    padding: 1rem;
+  }
+
+  .fact h3 {
+    margin: 0;
+    color: var(--color-foreground);
+    font-size: 1.08rem;
+  }
+
+  .fact p {
+    margin: 0.55rem 0 0;
+    color: #355274;
+    line-height: 1.45;
+  }
+
+  .faq h2 {
+    margin: 0;
+    color: var(--color-foreground);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+  }
+
+  .faq-grid {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+  }
+
+  .faq-item {
+    border: 1px solid #cfdaec;
+    border-radius: 1rem;
+    background: #fff;
+    padding: 1rem;
+  }
+
+  .faq-item h3 {
+    margin: 0;
+    color: var(--color-foreground);
+    font-size: 1.05rem;
+  }
+
+  .faq-item p {
+    margin: 0.55rem 0 0;
+    color: #355274;
+    line-height: 1.45;
+  }
+
+  :global(html[data-theme="dark"]) .story,
+  :global(html[data-theme="dark"]) .fact,
+  :global(html[data-theme="dark"]) .faq-item {
+    background: linear-gradient(145deg, #2a344d, #242d43);
+    border-color: #46567c;
+  }
+
+  :global(html[data-theme="dark"]) .story p,
+  :global(html[data-theme="dark"]) .story ul,
+  :global(html[data-theme="dark"]) .fact p,
+  :global(html[data-theme="dark"]) .faq-item p {
+    color: #d6dcef;
+  }
+
+  :global(html[data-theme="dark"]) .cta {
+    background: radial-gradient(circle at 0% 0%, #3a2d1c 0%, #262f45 45%, #20283a 100%);
+    border-color: #46567c;
+  }
+
+  :global(html[data-theme="dark"]) .hero {
+    background: radial-gradient(circle at 0% 0%, #3a2d1c 0%, #262f45 45%, #20283a 100%);
+    border-color: #46567c;
+  }
+
+  :global(html[data-theme="dark"]) .hero p {
+    color: #d6dcef;
+  }
+
+  :global(html[data-theme="dark"]) .label {
+    background: #f0be45;
+    color: #1f2f52;
+  }
+
+  :global(html[data-theme="dark"]) .hero span {
+    background: rgba(38, 50, 76, 0.92);
+    border-color: #4b5e89;
+    color: #d6dcef;
+  }
+
+  :global(html[data-theme="dark"]) .cta p {
+    color: #d6dcef;
+  }
+
+  @media (min-width: 860px) {
+    .narrative {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .faq-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>
