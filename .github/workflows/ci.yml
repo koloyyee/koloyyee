@@ -39,6 +39,8 @@ jobs:
 
       - name: "📦 Install dependencies"
         run: pnpm install
+        env:
+          pnpm_config_strict_dep_builds: false
 
       - name: "🔎 Lint code"
         run: pnpm run lint
