@@ -12,6 +12,7 @@ description: Is programming a craft?
 
 ## Table of Contents
 
+## Something Feels Wrong
 This morning, when I was walking around the neighbourhood, something popped into my mind. I have a question: why am I feeling something is missing when I programme? 
 
 A few years ago, I left my kitchen career, came over to Canada, and tried to start working as a software engineer. Right now, I’m still unemployed. 
