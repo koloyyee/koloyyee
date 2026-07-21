@@ -15,7 +15,8 @@ I look forward to sharing learnings and thoughts; let's hope to be 1% smarter th
 
 ## Experience
 
-- Clojure/Python Intern @ AnoxAI (Norway): Oct2025 - Present
+- Independent Contractor: Oct2023 - Present
+- Clojure/Python Intern @ AnoxAI (Norway): Oct2025 - Mar2025
 - TS/Python Fullstack Co-op @ DeepCode (Canada): Jan2025 - Apr2025
 - Software Quality Assurance Intern @ CaseIQ (Canada) Sep2024 - Dec2024
 - TS Junior Frontend Developer @ Snaildy (Hong Kong): Jan2023 - Aug2023
