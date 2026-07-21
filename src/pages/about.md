@@ -8,11 +8,9 @@ title: "About"
 
 My name is Ko Loy Yee, or David. I spent over 10 years in the kitchen, rising from cook to head chef, but now it is time to move on. Today, I am a programmer. Rather than creating dishes to entertain guests, I now build software to enrich my users' lives.
 
-I am a shameless Apple fanboy and a devotee of the ecosystem. You’ll find most of my posts are about Apple, Swift, and mobile app development.
+I spend most of my hours reading and analyzing companies, programming in Python, and sometimes in Clojure and Swift. I am a shameless Apple fanboy and a huge fan of Clojure- for the ethos, design, and community created by Rich Hickey.
 
-Apart from Swift, I am a huge fan of Clojure—not just for the functional programming, but for the ethos, design, and community created by Rich Hickey.
-
-I look forward to sharing my software with everyone—creating artifacts that make users' lives easier, happier, more productive, and smarter.
+I look forward to sharing learnings and thoughts; let's hope to be 1% smarter than yesterday.
 
 
 ## Experience
