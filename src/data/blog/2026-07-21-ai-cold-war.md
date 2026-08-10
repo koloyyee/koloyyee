@@ -4,7 +4,7 @@ author: Loy Yee Ko
 pubDatetime: 2026-07-21T17:33:40.121Z
 slug: ai-cold-war
 featured: false
-draft: false 
+draft: false
 tags:
   - AI
 description:
